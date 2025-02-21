@@ -51,4 +51,8 @@
 
 * git remote add origin [url] : This will set a remote repository of the local repository in the server via url. Giving a name as origin. now this can be used for team collobration.
 
-* git push origin <branch> : This commands is used to push changes from our local to remote. branch specifies which branch in remote should recieve over changes. If the command is used with --set-upstream button it means the branch should be created at origin as well.
+* git push origin <remote-branch> : This commands is used to push changes from our local to remote. branch specifies which branch in remote should recieve over changes. If the command is used with --set-upstream button it means the branch should be created at origin as well.
+
+* git fetch <remote-branch> : This command fetches or gets all the changes that are on that branch to your current local branch. It is just fetches but not merged into current branch. To merge we have to use merge command again.
+
+* git pull <remote-branch> : This command pulls the latest changes from remote branch and merges them into the current branch. It is the combination of both fetch and merge.
