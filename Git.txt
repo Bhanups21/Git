@@ -1,5 +1,3 @@
-                                                GIT
-
 * Git is a popular version control system. It is used for tracking code changes and coding collaboration.
 
 * How does git work -
