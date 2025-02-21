@@ -48,3 +48,7 @@
 * git merge <branch-name> : It is used to merge other branches to master. It should be done only after checking out on master.
 
 * Merge conflict : It happens when in two different branches the same file is modified with different changes. To avoid it we must make sure both the files are same in both merges. like the master branch was merged with some branch A. now the branch B has same changes to file as branch A had then file in branch B should match A. Then only we can merge them to master.
+
+* git remote add origin [url] : This will set a remote repository of the local repository in the server via url. Giving a name as origin. now this can be used for team collobration.
+
+* git push origin <branch> : This commands is used to push changes from our local to remote. branch specifies which branch in remote should recieve over changes. If the command is used with --set-upstream button it means the branch should be created at origin as well.
