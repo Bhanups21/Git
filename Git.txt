@@ -36,3 +36,7 @@
 * git add <file-name> : Once we think we are done working with some files we have to stage the changes made on them to commit them for permanent change or till a checkpoint so we can roll back when needed. In place of filename if we give a '.' it will consider all the tracked changed files and add them to stage. It works same with --add and -A options.
 
 * git commit -m "message" : Commit is nothing but save point were add is a safe save point. Commit is permanent save point or checkpoint. We can move forward and backward with commit. It is always recommended to add a message with commit. So, we can understand what exact changes we made on that commit. We can add message option with -m.
+
+* git log : It gives the complete history of all commits along with its hash values, commit messages, time and author details.
+
+* git --help : It lists out all the commands and options available with git for the particular version in our system. In order to get help for particular command and it options, we can type git <command> -help, It will list out all options for that command.
