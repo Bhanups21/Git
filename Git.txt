@@ -35,7 +35,7 @@
   
 * git add <file-name> : Once we think we are done working with some files we have to stage the changes made on them to commit them for permanent change or till a checkpoint so we can roll back when needed. In place of filename if we give a '.' it will consider all the tracked changed files and add them to stage. It works same with --add and -A options.
 
-* git commit -m "message" : Commit is nothing but save point were add is a safe save point. Commit is permanent save point or checkpoint. We can move forward and backward with commit. It is always recommended to add a message with commit. So, we can understand what exact changes we made on that commit. We can add message option with -m.
+* git commit -m "message" : Commit is nothing but save point were add is a safe save point. Commit is permanent save point or checkpoint. We can move forward and backward with commit. It is always recommended to add a message with commit. So, we can understand what exact changes we made on that commit. We can add message option with -m. when used with --amend option it resets and changes the current commit and creates new in its place.
 
 * git log : It gives the complete history of all commits along with its hash values, commit messages, time and author details. when used with --oneline option log for each individual commit will be shorter.
 
@@ -56,3 +56,5 @@
 * git fetch <remote-branch> : This command fetches or gets all the changes that are on that branch to your current local branch. It is just fetches but not merged into current branch. To merge we have to use merge command again.
 
 * git pull <remote-branch> : This command pulls the latest changes from remote branch and merges them into the current branch. It is the combination of both fetch and merge.
+
+* git reset <hash> : This command is used to reset back to previous commits.
