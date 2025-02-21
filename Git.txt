@@ -41,6 +41,10 @@
 
 * git --help : It lists out all the commands and options available with git for the particular version in our system. In order to get help for particular command and it options, we can type git <command> -help, It will list out all options for that command.
 
-* git branch <branch-name> : To create a new branch on master we use this command. So that main branch is not disturbed and we can work on some another piece of code on this branch. Using it without branch-name will list out all branches previously created. And one with (*) side of it is the current used branch.
+* git branch <branch-name> : To create a new branch on master we use this command. So that main branch is not disturbed and we can work on some another piece of code on this branch. Using it without branch-name will list out all branches previously created. And one with (*) side of it is the current used branch. When used with -d option it will delete the branch mentioned.
 
 * git checkout <branch-name> : It is useful when switching between branches. When used with -b option it will create a new branch on master if not already present.
+
+* git merge <branch-name> : It is used to merge other branches to master. It should be done only after checking out on master.
+
+* Merge conflict : It happens when in two different branches the same file is modified with different changes. To avoid it we must make sure both the files are same in both merges. like the master branch was merged with some branch A. now the branch B has same changes to file as branch A had then file in branch B should match A. Then only we can merge them to master.
