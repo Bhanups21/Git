@@ -39,4 +39,4 @@
 
 * git log : It gives the complete history of all commits along with its hash values, commit messages, time and author details.
 
-* git --help : It lists out all the commands and options available with git for the particular version in our system. In order to get help for particular command and it options, we can type git <command> -help, It will list out all options for that command.
+* git --help : It lists out all the commands and options available with git for the particular version in our system. In order to get help for particular command and it options, we can type git <command> -help, It will list out all options for that command..
